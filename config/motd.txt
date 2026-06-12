@@ -1,0 +1,9 @@
+<!-- Most valid html will work in here, excluding images. -->
+
+<h1>Welcome to Begin Again!</h1>
+<h2>
+The roleplay-focused, anthro-friendly Fallout server. We hope you have fun!
+<br>
+Discord server: <a href="https://discord.gg/3P9tGNq6et">CLICK HERE!</a> 
+</h2>
+

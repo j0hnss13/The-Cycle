@@ -1,0 +1,40 @@
+/obj/item/ammo_box/magazine/internal/speargun
+	name = "speargun internal magazine"
+	ammo_type = /obj/item/ammo_casing/caseless/magspear
+	caliber = "speargun"
+	max_ammo = 1
+
+/obj/item/ammo_box/magazine/internal/minigun
+	name = "gatling gun fusion core"
+	ammo_type = /obj/item/ammo_casing/caseless/laser/gatling
+	caliber = "gatling"
+	max_ammo = 5000
+
+/obj/item/ammo_box/magazine/internal/minigunbal
+	name = "minigun ammo pack"
+	ammo_type = /obj/item/ammo_casing/a556mm
+	caliber = "a556mm"
+	max_ammo = 2500
+
+/obj/item/ammo_box/magazine/internal/minigunbal5mm
+	name = "minigun ammo pack"
+	ammo_type = /obj/item/ammo_casing/a5mm
+	caliber = "a5mm"
+	max_ammo = 480
+/*
+/obj/item/ammo_box/magazine/internal/encminigunbal4mm
+	name = "minigun ammo pack"
+	ammo_type = /obj/item/ammo_casing/caseless/a5mm
+	caliber = "a5mm"
+	max_ammo = 480
+*/
+/obj/item/ammo_box/magazine/internal/flamethrower
+	name = "flamethower fuel tank"
+	ammo_type = /obj/item/ammo_casing/caseless/flamethrower
+	caliber = "fuel"
+	max_ammo = 99
+
+// BETA STUFF // Obsolete
+/obj/item/ammo_box/magazine/internal/shot/lethal/test
+	ammo_type = /obj/item/ammo_casing/shotgun/buckshot/test
+	max_ammo = 30
