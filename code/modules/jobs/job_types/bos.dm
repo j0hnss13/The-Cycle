@@ -113,9 +113,9 @@ Head Paladin
 	exp_type = EXP_TYPE_BROTHERHOOD
 
 	loadout_options = list(
-	/datum/outfit/loadout/sentheavy, //Minigun
-	/datum/outfit/loadout/sentlaser, //Lasminigun
-	/datum/outfit/loadout/sentmelee, //Plasmaspear HEADPALLY OP+14mm
+	/datum/outfit/loadout/sentheavy, //Lasminigun
+	/datum/outfit/loadout/sentlaser, //Tribeam
+	/datum/outfit/loadout/sentmelee, //Ripper+14mm
 	)
 
 	outfit = /datum/outfit/job/bos/f13sentinel
@@ -150,6 +150,7 @@ Head Paladin
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=1,
+		/obj/item/melee/f13powerfist = 1,
 		)
 
 /datum/outfit/loadout/sentheavy
@@ -162,15 +163,14 @@ Head Paladin
 /datum/outfit/loadout/sentlaser
 	name = "Rifleman Head Paladin"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer12 = 1,
-		/obj/item/attachments/scope = 1,
+		/obj/item/gun/energy/laser/scatter = 1,
 		/obj/item/stock_parts/cell/ammo/mfc = 2,
 	)
 
 /datum/outfit/loadout/sentmelee
 	name = "Assault Head Paladin"
 	backpack_contents = list(
-		/obj/item/twohanded/sledgehammer/supersledge = 1,
+		/obj/item/melee/powered/ripper/prewar = 1,
 		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 1,
 		/obj/item/ammo_box/magazine/m14mm = 2,
@@ -249,8 +249,8 @@ Head Knight
 	title = "Head Knight"
 	flag = F13KNIGHTCAPTAIN
 	head_announce = list("Security")
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	description = "You are the Head Knight, leader of your respective caste in the Chapter. Your knowledge of pre-war tactics, and you have advanced combat training and experience. You are in charge of the detachment's internal security, and your Knights. Delegate to them as necessary."
 	forbids = "The Brotherhood of Steel Expects: Obeying superiors and respecting the Chain that Binds to a degree. Collection and safeguarding of HARMFUL technology from the wasteland. Expanding and making relations only at the benefit of the chapter. Experimentation, research and innovation."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -395,6 +395,7 @@ Senior Paladin
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=1,
+		/obj/item/melee/f13powerfist = 1,
 	)
 
 /datum/outfit/loadout/spaladina
@@ -438,7 +439,7 @@ Paladin
 	exp_requirements = 780
 
 	loadout_options = list(
-	/datum/outfit/loadout/paladina,	//Powerfist + Revolver
+	/datum/outfit/loadout/paladina,	//Ripper+Mateba
 	/datum/outfit/loadout/paladinb, //R91
 	/datum/outfit/loadout/paladinc, //AER9
 	)
@@ -483,14 +484,15 @@ Paladin
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=1,
+		/obj/item/melee/f13powerfist = 1,
 	)
 
 /datum/outfit/loadout/paladina
 	name = "Assault Paladin"
 	backpack_contents = list(
-		/obj/item/twohanded/sledgehammer/supersledge = 1,
-		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
-		/obj/item/ammo_box/magazine/m45exp = 3,
+		/obj/item/melee/powered/ripper = 1,
+		/obj/item/gun/ballistic/revolver/colt357/mateba = 1,
+		/obj/item/ammo_box/a357box = 2,
 		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/clothing/accessory/bos/paladin = 1,
 		/obj/item/clothing/accessory/bos/juniorpaladin = 1,

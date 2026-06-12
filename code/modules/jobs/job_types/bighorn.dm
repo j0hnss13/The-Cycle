@@ -101,8 +101,8 @@ Mayor
 	uniform =  		/obj/item/clothing/under/f13/sheriff
 	neck =			/obj/item/storage/belt/holster/sheriff
 	shoes = 		/obj/item/clothing/shoes/f13/cowboy
-	r_hand = 		/obj/item/clothing/suit/armor/f13/power_armor/town
-	l_hand = 		/obj/item/clothing/head/helmet/f13/power_armor/town
+	suit = 		/obj/item/clothing/suit/armor/f13/town/chief
+	head = 		/obj/item/clothing/head/f13/town/sheriff
 	glasses =		/obj/item/clothing/glasses/sunglasses
 	l_pocket =		/obj/item/storage/bag/money/small/bighorn
 
@@ -124,7 +124,6 @@ Mayor
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, REF(src))
 	ADD_TRAIT(H, TRAIT_SELF_AWARE,REF(src))
 	ADD_TRAIT(H, TRAIT_IRONFIST, REF(src))
-	ADD_TRAIT(H, TRAIT_PA_WEAR, REF(src))
 	H.AddSpell(new /obj/effect/proc_holder/spell/terrifying_presence)
 
 /*--------------------------------------------------------------*/
